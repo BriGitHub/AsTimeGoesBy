@@ -1,0 +1,57 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Menu here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Menu extends World
+{
+    public static final GreenfootSound sound = new GreenfootSound("Victory.mp3");
+    // the filename is the same as the one you would use in the playSound method
+    
+    public static boolean hasTimer = false;
+    public static int time;
+    
+    /**
+     * Constructor for objects of class Menu.
+     * 
+     */
+    public Menu()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(850, 650, 1); 
+        Greenfoot.start(); //Automatically starts the world so the player doesn't need to press run
+        sound.setVolume(60);
+        sound.play();//start playing the sound
+        
+        Greenfoot.setSpeed(45); //sets how fast the physics of the game are going to be
+        
+        //Resets Jane's static variables
+        JaneDoe.health = 3;
+        JaneDoe.coolDown = 140;
+        JaneDoe.reloadDelayCount = 140;
+        JaneDoe.numUpgrade = 0;
+        Mover.level=1;
+    }
+    public void act()
+    {
+        GreenfootSound sound = new GreenfootSound("Victory.mp3");
+        // the filename is the same as the one you would use in the playSound method;
+        
+        if(Greenfoot.isKeyDown("enter"))
+        {
+            hasTimer = false;
+            Greenfoot.setWorld(new Level1()); //Starts level one if they press the right key
+        }
+        if(Greenfoot.isKeyDown("S"))
+        {
+            //If the players presses S, then they will be in a timed mode of the game
+            hasTimer = true; 
+            time = 5400; //sets the amount of time
+            
+            Greenfoot.setWorld(new Level1()); //Starts level one if they press the right key
+        }
+    }
+}

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RiseNFall
+comment0.text=\n\ Write\ a\ description\ of\ class\ RiseNFall\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ in\ the\ direction\ we\ are\ currently\ moving\ in.\ Turn\ if\ we\ reach\ a\ turning\ point.\n
+comment2.params=
+comment2.target=boolean\ atTurningPoint()
+comment2.text=\n\ Test\ if\ we\ are\ at\ one\ of\ the\ turning\ points.\n
+numComments=3

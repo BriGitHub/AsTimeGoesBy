@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\n\ Write\ a\ description\ of\ class\ Mover\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=firstImage\ secondImage
+comment1.target=void\ switchImage(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment1.text=\n\ Overloads\ switchImage\ for\ two\ parameters\n\ Alternate\ the\ character's\ image\ between\ image1\ and\ image2.\n\ Makes\ the\ character\ look\ like\ they\ are\ walking.\n
+comment2.params=firstImage\ secondImage\ thirdImage
+comment2.target=void\ switchImage(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment2.text=\n\ Overloads\ switchImage\ for\ three\ parameters\n\ Alternate\ the\ character's\ image\ between\ image1,\ image2,\ and\ image3.\n\ Makes\ the\ character\ look\ like\ they\ are\ walking.\n
+numComments=3
