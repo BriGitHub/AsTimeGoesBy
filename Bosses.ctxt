@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Bosses
+comment0.text=\n\ Write\ a\ description\ of\ class\ Bosses\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=int\ rng()
+comment1.text=\n\ Creates\ a\ random\ number\ to\ decide\ what\ the\ boss\ does\n
+comment2.params=
+comment2.target=int\ gotHit()
+comment2.text=\n\ Checks\ if\ the\ laser\ is\ touches\ the\ boss\ and\ if\ it\ is,\ take\ one\ health\ \n\ point\ away\ from\ the\ boss\n
+comment3.params=
+comment3.target=void\ death()
+comment3.text=\n\ Sees\ if\ the\ boss's\ health\ is\ zero\ and\ if\ it\ is,\ the\ boss\ despawns\ and\ the\ portal\n\ piece\ falls\ so\ the\ player\ can\ pick\ it\ up\n
+comment4.params=
+comment4.target=void\ platCheck()
+comment4.text=\n\ Makes\ sure\ the\ boss\ doesn't\ run\ under\ the\ platforms\n
+comment5.params=ground\ firstImage\ secondImage
+comment5.target=void\ noJump(int,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment5.text=\n\ Resets\ the\ image\ to\ the\ standing\ image\ if\ he\ isn't\ jumping\n
+comment6.params=amt\ firstImage\ secondImage
+comment6.target=void\ moveTowards(int,\ greenfoot.GreenfootImage,\ greenfoot.GreenfootImage)
+comment6.text=\n\ Moves\ towards\ jane\ and\ also\ sets\ the\ image\ based\ on\ her\ location\n
+numComments=7

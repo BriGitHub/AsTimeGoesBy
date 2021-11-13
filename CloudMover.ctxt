@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CloudMover
+comment0.text=\n\ Write\ a\ description\ of\ class\ CloudMover\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=CloudMover()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Move\ in\ the\ direction\ we\ are\ currently\ moving\ in.\ Turn\ if\ we\ reach\ a\ turning\ point.\n
+comment3.params=
+comment3.target=boolean\ atTurningPoint()
+comment3.text=\n\ Test\ if\ we\ are\ at\ one\ of\ the\ turning\ points.\n
+numComments=4
