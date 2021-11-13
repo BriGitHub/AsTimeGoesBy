@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Interactables
+comment0.text=\n\ Write\ a\ description\ of\ class\ Interactables\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ reset()
+comment1.text=\n\ Runs\ the\ basic\ things\ that\ should\ update\ between\ every\ level\ \n
+numComments=2
